@@ -20,3 +20,13 @@ if __name__ == '__main__':
 
     print("%.2f"%(total/float(3)))
 
+#######################ALTERNATIVE ANSWER################################
+
+#d={}
+#for i in range(int(raw_input())):
+#	line=raw_input().split()
+#	d[line[0]]=sum(map(float,line[1:]))/3
+#
+#print '%.2f' % d[raw_input()]
+
+#########################################################################
