@@ -9,12 +9,14 @@ int  sum (int count,...) {
     int sum = 0;
     va_list argument_list;
     va_start(argument_list, count);
+    //C cannot determeine the  legnth of the argument list passed. So above macro does  this  task.
 
     for(int i=0; i<count; i++){
         sum +=  va_arg(argument_list, int);
-
-    }
+        //this is a generator which is used to obtain next item in the passed argument list
+        //data typeof  the next argument must be specified    }
     va_end(argument_list);
+    //used to reset the list position
     return sum;
 
 }
