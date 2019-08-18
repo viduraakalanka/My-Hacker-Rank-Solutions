@@ -19,7 +19,7 @@ public class Solution {
             System.out.println("Yes");
         }
 
-        A = A.substring(0,1).toUpperCase() + A.substring(1);
+        A = A.substring(0,1).toUpperCase() + A.substring(1);//substring(start_index,end_index) 
         B = B.substring(0,1).toUpperCase() + B.substring(1);
         System.out.println(A+" "+B);
     }
