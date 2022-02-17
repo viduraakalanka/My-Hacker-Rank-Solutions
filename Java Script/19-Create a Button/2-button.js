@@ -3,7 +3,7 @@ var htmlButton = document.getElementById('btn');
 
 
 /* This sets the action to perform on a click event */
-btn.onclick = function() {
+htmlButton.onclick = function() {
     /* This changes the button's label */
-    btn.innerHTML++; 
+    htmlButton.innerHTML++; 
 };
